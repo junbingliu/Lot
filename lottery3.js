@@ -16,7 +16,12 @@ import $ from 'jquery';
     window.stopRotate=function(element) {
         if (element.Lot) {
             clearTimeout(element.Lot._timer);
-        }
+        }   
+		
+		
+		
+		
+		
     }
 
     window.Lot = (function() {
