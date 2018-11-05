@@ -17,11 +17,6 @@ import $ from 'jquery';
         if (element.Lot) {
             clearTimeout(element.Lot._timer);
         }   
-		
-		
-		
-		
-		
     }
 
     window.Lot = (function() {
